@@ -38,7 +38,8 @@
      2.然后在-(void)forwardInvocation:(NSInvocation *)anInvocation方法中你就可以通过anInvocation拿到相应信息做处理
      */
     
-    [people performSelector:@selector(doesNotExist)];
+//    [people performSelector:@selector(doesNotExist)];
+    
     /*
      测试 - (void)doesNotRecognizeSelector:(SEL)aSelector 方法
      1.最后消息未能处理，抛出异常。
