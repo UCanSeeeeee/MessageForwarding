@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1510C6F2A133F5A00B6B83F /* UIViewController+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = D1510C6E2A133F5A00B6B83F /* UIViewController+Hook.m */; };
+		D1510C722A14A50B00B6B83F /* CWZoo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1510C712A14A50B00B6B83F /* CWZoo.m */; };
 		D159301F2A1266800057967E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D159301E2A1266800057967E /* AppDelegate.m */; };
 		D15930252A1266800057967E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15930242A1266800057967E /* ViewController.m */; };
 		D159302A2A1266810057967E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15930292A1266810057967E /* Assets.xcassets */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		D1510C6D2A133F5A00B6B83F /* UIViewController+Hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Hook.h"; sourceTree = "<group>"; };
 		D1510C6E2A133F5A00B6B83F /* UIViewController+Hook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Hook.m"; sourceTree = "<group>"; };
+		D1510C702A14A50B00B6B83F /* CWZoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWZoo.h; sourceTree = "<group>"; };
+		D1510C712A14A50B00B6B83F /* CWZoo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWZoo.m; sourceTree = "<group>"; };
 		D159301A2A1266800057967E /* MessageForwardingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageForwardingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D159301D2A1266800057967E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D159301E2A1266800057967E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				D159303D2A12672A0057967E /* Monkey.m */,
 				D1510C6D2A133F5A00B6B83F /* UIViewController+Hook.h */,
 				D1510C6E2A133F5A00B6B83F /* UIViewController+Hook.m */,
+				D1510C702A14A50B00B6B83F /* CWZoo.h */,
+				D1510C712A14A50B00B6B83F /* CWZoo.m */,
 			);
 			path = MessageForwardingDemo;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				D159303B2A12671C0057967E /* Bird.m in Sources */,
 				D15930382A1267110057967E /* People.m in Sources */,
 				D1510C6F2A133F5A00B6B83F /* UIViewController+Hook.m in Sources */,
+				D1510C722A14A50B00B6B83F /* CWZoo.m in Sources */,
 				D15930252A1266800057967E /* ViewController.m in Sources */,
 				D159301F2A1266800057967E /* AppDelegate.m in Sources */,
 				D15930302A1266820057967E /* main.m in Sources */,

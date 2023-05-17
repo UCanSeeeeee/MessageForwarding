@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "People.h"
+#import "CWZoo.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    People *people = [[People alloc] init];
+    People *people = [People new];
     
     [people performSelector:@selector(speak)];
     /*
@@ -45,8 +46,29 @@
      1.最后消息未能处理，抛出异常。
      */
     
-    // git 测试
-    // Do any additional setup after loading the view.
+    // 测试 description
+    
+    NSLog(@"%@", [people description]);
+    NSLog(@"%@", [people debugDescription]);
+    
+    // 尝试 使用不可变对象
+    CWZoo *zoo = [CWZoo new];
+    
+    [zoo showAnimals];
+    NSLog(@"%@",[zoo animals]);
+    
+    [zoo addAnimals:@"cat"];
+    [zoo showAnimals];
+    NSLog(@"%@",[zoo animals]);
+    
+    [zoo addAnimals:@"cat"];
+    [zoo showAnimals];
+    NSLog(@"%@",[zoo animals]);
+    
+    [zoo removeAnimals:@"cat"];
+    [zoo showAnimals];
+    NSLog(@"%@",[zoo animals]);
+    
 }
 
 

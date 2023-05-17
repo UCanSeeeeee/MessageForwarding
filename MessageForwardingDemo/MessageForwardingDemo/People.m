@@ -59,4 +59,12 @@ void speak(id self, SEL _cmd){
     [super doesNotRecognizeSelector:aSelector];
 }
 
+// 测试 description
+- (NSString *)description {
+    return [NSString stringWithFormat:@"%@:%p",[self class],self];
+}
+
+- (NSString *)debugDescription {
+    return @"Chieh debugDescription";
+}
 @end
